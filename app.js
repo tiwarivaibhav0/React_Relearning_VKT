@@ -10,4 +10,4 @@ const HeadingComp = () => {
 };
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComp/>);
+root.render(HeadingComp());
