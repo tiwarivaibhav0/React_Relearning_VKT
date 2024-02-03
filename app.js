@@ -1,8 +1,13 @@
 // import React from "react";
-import  ReactDOM  from "react-dom/client";
+import ReactDOM from "react-dom/client";
 
-const heading = <h1>Hello World! from JSX</h1>;
-console.log({heading})
+const HeadingComp = () => {
+	return (
+		<div>
+			<h1>Heading</h1>
+		</div>
+	);
+};
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
+root.render(<HeadingComp/>);
